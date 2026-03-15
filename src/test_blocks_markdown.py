@@ -3,6 +3,7 @@ from blocks_markdown import (
     BlockType, markdown_to_blocks, block_to_block_type,
     markdown_to_html_node
 )
+from main import extract_title
 
 
 class TestMarkdownToBlocks(unittest.TestCase):
@@ -186,3 +187,4 @@ This is a paragraph of text. It has some **bold** and _italic_ words inside of i
             html,
             "<div><h6>This is a heading 6</h6></div>",
         )
+    
