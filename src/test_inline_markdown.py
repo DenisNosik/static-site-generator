@@ -7,7 +7,6 @@ from inline_markdown import (
     )
 
 
-
 class TestTextToTextNodes(unittest.TestCase):
     def test_eq(self):
         text = (
@@ -40,7 +39,6 @@ class TestTextToTextNodes(unittest.TestCase):
             ],
             nodes
         )
-    
 
 class TestSplitNodes(unittest.TestCase):
     def test_code(self):
